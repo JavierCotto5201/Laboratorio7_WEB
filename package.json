@@ -1,0 +1,20 @@
+{
+  "name": "Laboratorio7_WEB",
+  "version": "1.0.0",
+  "description": "Este github comprende el laboratorio 7 de Sistemas y Tecnologías Web",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JavierCotto5201/Laboratorio7_WEB.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JavierCotto5201/Laboratorio7_WEB/issues"
+  },
+  "homepage": "https://github.com/JavierCotto5201/Laboratorio7_WEB#readme"
+}
