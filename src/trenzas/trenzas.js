@@ -1,9 +1,11 @@
+import trenzas from "../imagenes/trenzas.jpg";
+import "../css/paginaI.css";
+
 const div = document.createElement("div");
 
 const imagen = document.createElement("img");
-imagen.src = "../imagenes/trenzas.jpg";
+imagen.src = trenzas;
 imagen.width = "250";
-alt="";
 div.appendChild(imagen);
 
 const p = document.createElement("p");

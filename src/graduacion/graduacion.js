@@ -1,9 +1,13 @@
+import graduacion from "../imagenes/graduacion.jpg";
+import piratas from "../imagenes/piratas.jpg";
+import sicarios from "../imagenes/sicarios.jpg";
+import "../css/paginaI.css";
+
 const div_graduacion = document.createElement("div");
 
 const imagen_graduacion = document.createElement("img");
-imagen_graduacion.src = "../imagenes/graduacion.jpg";
+imagen_graduacion.src = graduacion;
 imagen_graduacion.width = "300";
-alt="";
 div_graduacion.appendChild(imagen_graduacion);
 
 const p_graduacion = document.createElement("p");
@@ -17,9 +21,8 @@ detail.appendChild(summary);
 div_graduacion.appendChild(detail);
 
 const imagen1_graduacion = document.createElement("img");
-imagen1_graduacion.src = "../imagenes/piratas.jpg";
+imagen1_graduacion.src = piratas;
 imagen1_graduacion.width = "300";
-alt="";
 detail.appendChild(imagen1_graduacion);
 
 const br_graduacion = document.createElement("br");
@@ -32,9 +35,8 @@ detail1.appendChild(summary1);
 div_graduacion.appendChild(detail1);
 
 const imagen2_graduacion = document.createElement("img");
-imagen2_graduacion.src = "../imagenes/sicarios.jpg";
+imagen2_graduacion.src = sicarios;
 imagen2_graduacion.width = "300";
-alt="";
 detail1.appendChild(imagen2_graduacion);
 
 

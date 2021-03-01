@@ -1,9 +1,11 @@
+import halloween from "../imagenes/halloween.jpg";
+import "../css/paginaI.css";
+
 const div_hallo = document.createElement("div");
 
 const imagen_hallo = document.createElement("img");
 imagen_hallo.src = "../imagenes/halloween.jpg";
 imagen_hallo.width = "350";
-alt="";
 div_hallo.appendChild(imagen_hallo);
 
 const p_hallo = document.createElement("p");

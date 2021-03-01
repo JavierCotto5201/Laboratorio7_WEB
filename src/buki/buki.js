@@ -1,9 +1,12 @@
+import buki from "../imagenes/buki.mp4";
+import "../css/paginaV.css";
+
 const vid = document.createElement("div");
 vid.id = "vid";
 
 const video = document.createElement("video");
 video.id = "vidBuki";
-video.src = "../imagenes/buki.mp4";
+video.src = buki;
 video.width = "450";
 video.autoplay = true;
 vid.appendChild(video);

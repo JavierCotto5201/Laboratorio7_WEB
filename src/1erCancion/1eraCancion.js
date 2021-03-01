@@ -1,9 +1,12 @@
+import primera from "../imagenes/cancion1.jpg";
+import primeraS from "../imagenes/cancion.mpeg";
+import "../css/paginaI.css";
+
 const div_1era = document.createElement("div");
 
 const imagen_1era = document.createElement("img");
-imagen_1era.src = "../imagenes/cancion1.jpg";
+imagen_1era.src = primera;
 imagen_1era.width = "350";
-alt="";
 div_1era.appendChild(imagen_1era);
 
 const p_1era = document.createElement("p");
@@ -14,7 +17,7 @@ const audio = document.createElement("audio")
 audio.controls = true;
 
 const source = document.createElement("source");
-source.src = "../imagenes/cancion.mpeg";
+source.src = primeraS;
 source.type ="audio/ogg";
 audio.appendChild(source);
 div_1era.appendChild(audio);

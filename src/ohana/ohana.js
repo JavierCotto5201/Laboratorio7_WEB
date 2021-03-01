@@ -1,9 +1,11 @@
+import ohana from "../imagenes/ohana.jpg";
+import "../css/paginaI.css";
+
 const div_ohana = document.createElement("div");
 
 const imagen_ohana = document.createElement("img");
-imagen_ohana.src = "../imagenes/ohana.jpg";
+imagen_ohana.src = ohana;
 imagen_ohana.width = "500";
-alt="";
 div_ohana.appendChild(imagen_ohana);
 
 const p = document.createElement("p");

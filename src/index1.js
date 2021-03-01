@@ -1,1 +1,1 @@
-import "./inicio/inicio";
+import "./1erCancion/1eraCancion";

@@ -1,9 +1,11 @@
+import carro from "../imagenes/carro.jpg";
+import "../css/paginaI.css";
+
 const div_carro = document.createElement("div");
 
 const imagen_carro = document.createElement("img");
-imagen_carro.src = "../imagenes/carro.jpg";
+imagen_carro.src = carro;
 imagen_carro.width = "450";
-alt="";
 div_carro.appendChild(imagen_carro);
 
 const p_carro = document.createElement("p");

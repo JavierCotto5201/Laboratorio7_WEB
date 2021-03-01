@@ -1,9 +1,11 @@
+import disparos from "../imagenes/pistola.jpg";
+import "../css/paginaI.css";
+
 const div_disp = document.createElement("div");
 
 const imagen_disp = document.createElement("img");
-imagen_disp.src = "../imagenes/pistola.jpg";
+imagen_disp.src = disparos;
 imagen_disp.width = "450";
-alt="";
 div_disp.appendChild(imagen_disp);
 
 const p_disp = document.createElement("p");

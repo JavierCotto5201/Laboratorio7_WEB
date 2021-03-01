@@ -1,12 +1,14 @@
+import segunda from "../imagenes/sadj.jpg";
+import "../css/paginaI.css";
+
 const div_2da = document.createElement("div");
 
 const a2_2da = document.createElement("a");
 a2_2da.href = "https://fanlink.to/illbebacksoon";
 
 const imagen_2da = document.createElement("img");
-imagen_2da.src = "../imagenes/sadj.jpg";
+imagen_2da.src = segunda;
 imagen_2da.width = "350";
-alt="";
 a2_2da.appendChild(imagen_2da);
 div_2da.appendChild(a2_2da);
 
