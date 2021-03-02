@@ -1,10 +1,12 @@
-import "../Inicio/Inicio.css";
+import "../Inicio/Inicio.scss";
+import '../../node_modules/bootstrap/dist/js/bootstrap.js';
+
 
 const link_inicio = document.createElement('div');
 link_inicio.id = "links";
 
 const titulo_inicio = document.createElement("h2");
-titulo_inicio.id = "titulo_inicio"
+titulo_inicio.id = "titulo_inicio";
 titulo_inicio.innerText = "MI MEJOR ANIO: 2019";
 link_inicio.appendChild(titulo_inicio);
 
@@ -108,13 +110,6 @@ a11_inicio.href = "https://www.instagram.com/cotto5201/";
 a11_inicio.innerText = "Instagram Personal";
 l11_inicio.appendChild(a11_inicio);
 lista1_inicio.appendChild(l11_inicio);
-
-const l12_inicio = document.createElement("li");
-const a12_inicio = document.createElement("a")
-a12_inicio.href = "https://www.instagram.com/cotto5201/";
-a12_inicio.innerText = "Instagram Personal";
-l12_inicio.appendChild(a12_inicio);
-lista1_inicio.appendChild(l12_inicio);
 
 const label_inicio = document.createElement("label");
 label_inicio.id = "pagina"

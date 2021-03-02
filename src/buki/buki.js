@@ -1,5 +1,5 @@
 import buki from "../imagenes/buki.mp4";
-import "../css/paginaV.css";
+import "../css/paginaV.scss";
 
 const vid = document.createElement("div");
 vid.id = "vid";

@@ -1,5 +1,5 @@
 import segunda from "../imagenes/sadj.jpg";
-import "../css/paginaI.css";
+import "../css/paginaI.scss";
 
 const div_2da = document.createElement("div");
 

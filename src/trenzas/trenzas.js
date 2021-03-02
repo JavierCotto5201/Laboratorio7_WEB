@@ -1,5 +1,5 @@
 import trenzas from "../imagenes/trenzas.jpg";
-import "../css/paginaI.css";
+import "../css/paginaI.scss";
 
 const div = document.createElement("div");
 

@@ -1,7 +1,7 @@
 import graduacion from "../imagenes/graduacion.jpg";
 import piratas from "../imagenes/piratas.jpg";
 import sicarios from "../imagenes/sicarios.jpg";
-import "../css/paginaI.css";
+import "../css/paginaI.scss";
 
 const div_graduacion = document.createElement("div");
 

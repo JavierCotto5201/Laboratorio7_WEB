@@ -1,6 +1,6 @@
 import primera from "../imagenes/cancion1.jpg";
 import primeraS from "../imagenes/cancion.mpeg";
-import "../css/paginaI.css";
+import "../css/paginaI.scss";
 
 const div_1era = document.createElement("div");
 

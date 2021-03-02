@@ -1,5 +1,5 @@
 import carro from "../imagenes/carro.jpg";
-import "../css/paginaI.css";
+import "../css/paginaI.scss";
 
 const div_carro = document.createElement("div");
 

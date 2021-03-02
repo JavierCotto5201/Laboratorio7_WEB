@@ -1,5 +1,5 @@
 import ohana from "../imagenes/ohana.jpg";
-import "../css/paginaI.css";
+import "../css/paginaI.scss";
 
 const div_ohana = document.createElement("div");
 
