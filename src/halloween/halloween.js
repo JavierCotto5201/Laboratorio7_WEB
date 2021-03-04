@@ -15,7 +15,7 @@ div_hallo.appendChild(p_hallo);
 const lista_hallo = document.createElement("ul");
 const l1_hallo = document.createElement("li");
 const a1_hallo = document.createElement("a");
-a1_hallo.href = "../Inicio/Inicio.html";
+a1_hallo.href = "Inicio.html";
 a1_hallo.innerText = "Regreso a pagina pricipal";
 l1_hallo.appendChild(a1_hallo);
 lista_hallo.appendChild(l1_hallo);

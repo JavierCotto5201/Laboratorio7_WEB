@@ -21,70 +21,70 @@ link_inicio.appendChild(lista_inicio);
 
 const l1_inicio = document.createElement("li");
 const a1_inicio = document.createElement("a");
-a1_inicio.href = "../graduacion/graduacion.html";
+a1_inicio.href = "graduacion.html";
 a1_inicio.innerText = "Mi Graduacion 2018";
 l1_inicio.appendChild(a1_inicio);
 lista_inicio.appendChild(l1_inicio);
 
 const l2_inicio = document.createElement("li");
 const a2_inicio = document.createElement("a");
-a2_inicio.href = "../1ercancion/primerCancion.html";
+a2_inicio.href = "primerCancion.html";
 a2_inicio.innerText = "Mi Primer Cancion";
 l2_inicio.appendChild(a2_inicio);
 lista_inicio.appendChild(l2_inicio);
 
 const l3_inicio = document.createElement("li");
 const a3_inicio = document.createElement("a");
-a3_inicio.href = "../trenzas/trenzas.html";
+a3_inicio.href = "trenzas.html";
 a3_inicio.innerText = "El dia que intente algo nuevo...";
 l3_inicio.appendChild(a3_inicio);
 lista_inicio.appendChild(l3_inicio);
 
 const l4_inicio = document.createElement("li");
 const a4_inicio = document.createElement("a");
-a4_inicio.href = "../carro/Carro.html";
+a4_inicio.href = "Carro.html";
 a4_inicio.innerText = "A mejorar el carro se ha dicho";
 l4_inicio.appendChild(a4_inicio);
 lista_inicio.appendChild(l4_inicio);
 
 const l5_inicio = document.createElement("li");
 const a5_inicio = document.createElement("a");
-a5_inicio.href = "../badBunny/badBunny.html";
+a5_inicio.href = "badBunny.html";
 a5_inicio.innerText = "EL MEJOR CONCIERTO";
 l5_inicio.appendChild(a5_inicio);
 lista_inicio.appendChild(l5_inicio);
 
 const l6_inicio = document.createElement("li");
 const a6_inicio = document.createElement("a");
-a6_inicio.href = "../halloween/halloween.html";
+a6_inicio.href = "halloween.html";
 a6_inicio.innerText = "Una fiesta para recordar";
 l6_inicio.appendChild(a6_inicio);
 lista_inicio.appendChild(l6_inicio);
 
 const l7_inicio = document.createElement("li");
 const a7_inicio = document.createElement("a");
-a7_inicio.href = "../disparos/disparos.html";
+a7_inicio.href = "disparos.html";
 a7_inicio.innerText = "Vamos a reventar a los blancos";
 l7_inicio.appendChild(a7_inicio);
 lista_inicio.appendChild(l7_inicio);
 
 const l8_inicio = document.createElement("li");
 const a8_inicio = document.createElement("a");
-a8_inicio.href = "../buki/elbuki.html";
+a8_inicio.href = "buki.html";
 a8_inicio.innerText = "Una noche para recordar";
 l8_inicio.appendChild(a8_inicio);
 lista_inicio.appendChild(l8_inicio);
 
 const l9_inicio = document.createElement("li");
 const a9_inicio = document.createElement("a");
-a9_inicio.href = "../ohana/Ohana.html";
+a9_inicio.href = "Ohana.html";
 a9_inicio.innerText = "Ma Family";
 l9_inicio.appendChild(a9_inicio);
 lista_inicio.appendChild(l9_inicio);
 
 const l10_inicio = document.createElement("li");
 const a10_inicio = document.createElement("a");
-a10_inicio.href = "../2dacancion/segundaCancion.html";
+a10_inicio.href = "segundaCancion.html";
 a10_inicio.innerText = "Empieza algo grande";
 l10_inicio.appendChild(a10_inicio);
 lista_inicio.appendChild(l10_inicio);

@@ -20,7 +20,7 @@ vid.appendChild(lista_Bunny);
 
 const l1_Bunny = document.createElement("li");
 const a1_Bunny = document.createElement("a");
-a1_Bunny.href = "../Inicio/Inicio.html";
+a1_Bunny.href = "Inicio.html";
 a1_Bunny.innerText = "Regreso a pagina pricipal";
 l1_Bunny.appendChild(a1_Bunny);
 lista_Bunny.appendChild(l1_Bunny);

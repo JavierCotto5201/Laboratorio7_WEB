@@ -15,7 +15,7 @@ div.appendChild(p);
 const lista = document.createElement("ul");
 const l1 = document.createElement("li");
 const a1 = document.createElement("a");
-a1.href = "../Inicio/Inicio.html";
+a1.href = "Inicio.html";
 a1.innerText = "Regreso a pagina pricipal";
 l1.appendChild(a1);
 lista.appendChild(l1);

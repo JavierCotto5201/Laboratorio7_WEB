@@ -45,7 +45,7 @@ lista_1era.appendChild(l2_1era);
 
 const l3_1era = document.createElement("li");
 const a3_1era = document.createElement("a");
-a3_1era.href = "../Inicio/Inicio.html";
+a3_1era.href = "Inicio.html";
 a3_1era.innerText = "Regreso a pagina pricipal";
 l3_1era.appendChild(a3_1era);
 lista_1era.appendChild(l3_1era);

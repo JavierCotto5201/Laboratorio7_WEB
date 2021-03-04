@@ -19,7 +19,7 @@ div_2da.appendChild(p_2da);
 const lista = document.createElement("ul");
 const l1_2da = document.createElement("li");
 const a1_2da = document.createElement("a");
-a1_2da.href = "../Inicio/Inicio.html";
+a1_2da.href = "Inicio.html";
 a1_2da.innerText = "Regreso a pagina pricipal";
 l1_2da.appendChild(a1_2da);
 lista.appendChild(l1_2da);

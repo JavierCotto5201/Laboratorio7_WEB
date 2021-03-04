@@ -43,7 +43,7 @@ detail1.appendChild(imagen2_graduacion);
 const lista_graduacion = document.createElement("ul");
 const l1_graduacion = document.createElement("li");
 const a1_graduacion = document.createElement("a");
-a1_graduacion.href = "../Inicio/Inicio.html";
+a1_graduacion.href = "Inicio.html";
 a1_graduacion.innerText = "Regreso a pagina pricipal";
 l1_graduacion.appendChild(a1_graduacion);
 lista_graduacion.appendChild(l1_graduacion);

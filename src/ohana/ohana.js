@@ -15,7 +15,7 @@ div_ohana.appendChild(p);
 const lista_ohana = document.createElement("ul");
 const l1_ohana = document.createElement("li");
 const a1_ohana = document.createElement("a");
-a1_ohana.href = "../Inicio/Inicio.html";
+a1_ohana.href = "Inicio.html";
 a1_ohana.innerText = "Regreso a pagina pricipal";
 l1_ohana.appendChild(a1_ohana);
 lista_ohana.appendChild(l1_ohana);

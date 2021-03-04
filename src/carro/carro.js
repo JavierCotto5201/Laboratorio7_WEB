@@ -15,7 +15,7 @@ div_carro.appendChild(p_carro);
 const lista_carro = document.createElement("ul");
 const l1_carro = document.createElement("li");
 const a1_carro = document.createElement("a");
-a1_carro.href = "../Inicio/Inicio.html";
+a1_carro.href = "Inicio.html";
 a1_carro.innerText = "Regreso a pagina pricipal";
 l1_carro.appendChild(a1_carro);
 lista_carro.appendChild(l1_carro);

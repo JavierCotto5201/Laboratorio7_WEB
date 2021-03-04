@@ -20,7 +20,7 @@ vid.appendChild(lista_buki);
 
 const l1_buki = document.createElement("li");
 const a1_buki = document.createElement("a");
-a1_buki.href = "../Inicio/Inicio.html";
+a1_buki.href = "Inicio.html";
 a1_buki.innerText = "Regreso a pagina pricipal";
 l1_buki.appendChild(a1_buki);
 lista_buki.appendChild(l1_buki);

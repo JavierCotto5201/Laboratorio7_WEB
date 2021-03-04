@@ -55,7 +55,7 @@ module.exports = {
     }),
     new HtmlWebpackPlugin({
         template:"./src/halloween/halloween.html",
-        filename:"hallowwen.html",
+        filename:"halloween.html",
         chunks:["index6"]
     }),
     new HtmlWebpackPlugin({
@@ -81,7 +81,7 @@ module.exports = {
 
       module: {
         rules: [    
-            {test: /\.css$/i, use: [MiniCssExtractPlugin.loader, 'css-loader']},
+            {test: /\.css$/i, use: ['style-loader', 'css-loader']},
 
             {test: /\.s[ac]ss$/i,
                 use: [
